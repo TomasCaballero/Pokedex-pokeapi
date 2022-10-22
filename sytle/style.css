@@ -5,7 +5,7 @@
 
 body {
   height: 100vh;
-  background-color: #bb1515;
+  background-color: #c82b2b;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -136,6 +136,13 @@ body main #contenedorPokemons .pokemon .red {
   border-top-left-radius: 50px;
   border-top-right-radius: 50px;
   margin-top: -5px;
+}
+
+body main #contenedorPokemons .pokemon .red .pokeId {
+  font-family: sans-serif;
+  font-weight: 600;
+  padding-left: 8px;
+  padding-top: 30px;
 }
 
 body main #contenedorPokemons .pokemon .img {

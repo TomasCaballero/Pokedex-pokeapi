@@ -24,7 +24,11 @@ const obtenerPokemon = (id)=>{
         div.setAttribute('id',`${pokemonId}`)
         for(let i = 0; i < pokemonId; i++){
                 div.innerHTML = `
-                    <div class="red"></div>
+                    <div class="red">
+                        <div class="pokeId">
+                            ${pokemonId} 
+                        </div>
+                    </div>
                     <div class="img">
                         <img src="${imgPokemon}" alt="">
                     </div>
@@ -54,7 +58,7 @@ const traerPokemons = (number)=>{
     }
 }
 
-traerPokemons(150);
+traerPokemons(151);
 
 const filtroPorId = document.getElementById('filtroPorId')
 filtroPorId.value = 20
