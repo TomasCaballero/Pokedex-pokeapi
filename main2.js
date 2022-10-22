@@ -54,7 +54,7 @@ const traerPokemons = (number)=>{
     }
 }
 
-traerPokemons(9);
+traerPokemons(150);
 
 const filtroPorId = document.getElementById('filtroPorId')
 filtroPorId.value = 20
