@@ -60,6 +60,6 @@ const traerPokemons = (number)=>{
 
 traerPokemons(151);
 
-const filtroPorId = document.getElementById('filtroPorId')
-filtroPorId.value = 20
-console.log(filtroPorId.value)
+// const filtroPorId = document.getElementById('filtroPorId')
+// filtroPorId.value = 20
+// console.log(filtroPorId.value)

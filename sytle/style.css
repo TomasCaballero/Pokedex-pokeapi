@@ -211,5 +211,9 @@ body main #contenedorPokemons .pokemon:active {
   box-shadow: -1px 1px 373px 200px rgba(0, 0, 0, 0.77);
   -webkit-box-shadow: -1px 1px 373px 2000px rgba(0, 0, 0, 0.77);
   -moz-box-shadow: -1px 1px 373px 2000px rgba(0, 0, 0, 0.77);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 /*# sourceMappingURL=style.css.map */
