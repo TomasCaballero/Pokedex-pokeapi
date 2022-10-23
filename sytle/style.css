@@ -161,10 +161,21 @@ body main #contenedorPokemons .pokemon .img {
   background-color: white;
   border-radius: 90px;
   border: solid 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 body main #contenedorPokemons .pokemon .img img {
   width: 200px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 body main #contenedorPokemons .pokemon .white {

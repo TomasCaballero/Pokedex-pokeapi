@@ -29,8 +29,7 @@ const obtenerPokemon = (id)=>{
                             ${pokemonId} 
                         </div>
                     </div>
-                    <div class="img">
-                        <img src="${imgPokemon}" alt="">
+                    <div class="img" style="background-image: url(${imgPokemon})">
                     </div>
                     <div class="white">
                         <div class="name">${nombrePokemon}</div>
