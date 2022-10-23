@@ -25,7 +25,7 @@ const obtenerPokemon = (id)=>{
         for(let i = 0; i < pokemonId; i++){
                 div.innerHTML = `
                     <div class="red">
-                        <div class="pokeId">
+                        <div class="pokeId" style="color: white;">
                             ${pokemonId} 
                         </div>
                     </div>
