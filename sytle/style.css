@@ -5,7 +5,7 @@
 
 body {
   height: 100vh;
-  background-color: #c82b2b;
+  background-color: #fbfabd;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -65,6 +65,7 @@ body header nav img {
 }
 
 body header nav input {
+  text-align: center;
   border: solid 2px black;
   border-radius: 5px;
   margin-left: 40px;

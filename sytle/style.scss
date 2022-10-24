@@ -4,7 +4,7 @@
 }
 body{
     height: 100vh;
-    background-color: rgb(200, 43, 43);
+    background-color: rgb(251, 250, 189);
     // background: rgb(55,98,210);
     // background: linear-gradient(90deg, rgba(55,98,210,1) 10%, rgba(254,255,38,1) 90%);
     display: flex;
@@ -37,6 +37,7 @@ body{
                 width: 100px;
             }
             input{
+                text-align: center;
                 border: solid 2px black;
                 border-radius: 5px;
                 margin-left: 40px;

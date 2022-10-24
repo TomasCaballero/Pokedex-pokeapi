@@ -1,5 +1,6 @@
 const contenedorPokemons = document.getElementById('contenedorPokemons');
 
+
 const obtenerPokemon = (id)=>{
     fetch(`https://pokeapi.co/api/v2/pokemon/${id}`)
     .then(res => res.json())
@@ -58,7 +59,3 @@ const traerPokemons = (number)=>{
 }
 
 traerPokemons(151);
-
-// const filtroPorId = document.getElementById('filtroPorId')
-// filtroPorId.value = 20
-// console.log(filtroPorId.value)
