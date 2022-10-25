@@ -55,14 +55,8 @@ const obtenerPokemon = (id)=>{
 }
 
 const traerPokemons = (number)=>{
-    
     for(let i = 1; i <= number; i++){
-        const myTimeout = setTimeout(myGreeting, 1000);
-
-        function myGreeting() {
-            obtenerPokemon(i)
-        }
-        
+        obtenerPokemon(i)
     }
 }
 
