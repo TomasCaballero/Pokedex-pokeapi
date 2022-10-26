@@ -28,6 +28,7 @@ body{
             display: flex;
             flex-direction: row;
             justify-content: space-around;
+            align-items: center;
             padding-left: 60px;
             color: rgb(187, 21, 21);
             font-family: sans-serif;
@@ -36,15 +37,34 @@ body{
             img{
                 width: 100px;
             }
-            input{
-                text-align: center;
-                border: solid 2px black;
-                border-radius: 5px;
-                margin-left: 40px;
+            form{
+                input{
+                    text-align: center;
+                    border: solid 2px black;
+                    border-radius: 5px;
+                    margin-left: 40px;
+                    height: 40px;
+                    background-color: rgba(187, 21, 21, 0.166);
+                }
+                button{
+                    height: 40px;
+                    width: 70px;
+                    background-color: rgba(187, 21, 21, 0.379);
+                    border-radius: 10px;
+                    font-weight: 600;
+                }
+                @media all and (max-width: 500px){
+                    input{
+                        width: 120px;
+                    }
+                    button{
+                        width: 55px;
+                    }
+                }
             }
         }
     }
-    @media all and (max-width: 500px){
+    @media all and (max-width: 664px){
         header{
             width: 100vw;
         }
@@ -125,6 +145,7 @@ body{
                     font-family: sans-serif;
                     font-weight: 600;
                     .name{
+                        width: fit-content;
                         font-size: large;
                         padding-top: 8px;
                     }

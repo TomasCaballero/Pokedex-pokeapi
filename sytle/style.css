@@ -53,6 +53,9 @@ body header nav {
           flex-direction: row;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding-left: 60px;
   color: #bb1515;
   font-family: sans-serif;
@@ -64,14 +67,33 @@ body header nav img {
   width: 100px;
 }
 
-body header nav input {
+body header nav form input {
   text-align: center;
   border: solid 2px black;
   border-radius: 5px;
   margin-left: 40px;
+  height: 40px;
+  background-color: rgba(187, 21, 21, 0.166);
+}
+
+body header nav form button {
+  height: 40px;
+  width: 70px;
+  background-color: rgba(187, 21, 21, 0.379);
+  border-radius: 10px;
+  font-weight: 600;
 }
 
 @media all and (max-width: 500px) {
+  body header nav form input {
+    width: 120px;
+  }
+  body header nav form button {
+    width: 55px;
+  }
+}
+
+@media all and (max-width: 664px) {
   body header {
     width: 100vw;
   }
@@ -201,6 +223,9 @@ body main #contenedorPokemons .pokemon .white {
 }
 
 body main #contenedorPokemons .pokemon .white .name {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   font-size: large;
   padding-top: 8px;
 }
