@@ -55,7 +55,6 @@ const obtenerPokemon = ()=>{
                 `
                 contenedorPokemons.appendChild(div)
             }
-            
         });
     }
 }
